@@ -75,13 +75,35 @@
             </section>
 
             <section>
-                <p>A simple web application that allows users to view and explore rat sightings in NYC</p>
+                <p>A simple AngularJS application that allows users to view and explore rat sightings in NYC</p>
                 <a class="link" href="http://meredithmmyers.com/ratmap">meredithmmyers.com/ratmap</a>
                 <img class="full-size" src="images/ratmap-full.png" />
             </section>
 
             <section>
                 <p>This presentation is available at <a href="http://meredithmmyers.com/ratmap-presentation">meredithmmyers.com/ratmap-presentation</a></p>
+            </section>
+
+            <section>
+                <p>Building an Angular application to visualize (rat) data</p>
+                <ul>
+                    <li class="fragment">Technology stack</li>
+                    <li class="fragment">Rat data</li>
+                    <li class="fragment">Presentation</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Technology</h2>
+                    <table class="tech">
+                    <tr><td><img class="thumbnail-m" src="images/angular.png"/><p>Angular</p></td>
+                    <td><img class="thumbnail-m" src="images/bower.png"/><p>Bower</p></td>
+                    <td><img class="thumbnail-m" src="images/gulp.png"/><p>Gulp</p></td></tr>
+                    <tr>
+                    <td><img class="thumbnail-m" src="images/leaflet.png"/><p>Leaflet</p></td>
+                    <td><img class="thumbnail-m" src="images/bootstrap.png"/><p>Bootstrap</p></td>
+                    <td><img class="thumbnail-m" src="images/github.png"/><p>Pages</p></td></tr>
+                  </table>
             </section>
 
             <section>
@@ -93,34 +115,16 @@
                     <li class="fragment">Easy access of data and usage of filters, queries, <br> and aggregation
                     <pre><code>http://data.cityofnewyork.us/resource/3q43-55fe?$limit=10000</code></pre></li>
                 </ul>
-                <aside class="notes">
-                	Go down three, then over
-								</aside>
-            </section>
-
-            <section>
-                <h2>Technology</h2>
-                	<table class="tech">
-                    <tr><td><img class="thumbnail-m" src="images/leaflet.png"/><p>Leaflet</p></td>
-                    <td><img class="thumbnail-m" src="images/angular.png"/><p>Angular</p></td>
-                    <td><img class="thumbnail-m" src="images/bootstrap.png"/><p>Bootstrap</p></td></tr>
-                    <tr><td><img class="thumbnail-m" src="images/bower.png"/><p>Bower</p></td>
-                    <td><img class="thumbnail-m" src="images/gulp.png"/><p>Gulp</p></td>
-                    <td><img class="thumbnail-m" src="images/github.png"/><p>Pages</p></td></tr>
-                  </table>
             </section>
 
             <section>
                 <section>
-                    <h2>Design</h2>
+                    <h2>Presentation</h2>
                     <ul>
                         <li>Visualization appearance</li>
                         <li class="fragment">User interaction</li>
                         <li class="fragment">Overall page presentation</li>
                     </ul>
-                    <aside class="notes">
-                			Go down
-										</aside>
                 </section>
                 <section>
                     <h2>Visualization appearance</h2>
@@ -128,23 +132,18 @@
                     <p><a href="http://esri.github.io/esri-leaflet/" class="link">http://esri.github.io/esri-leaflet</a>
                     </p>
                     <img class="thumbnail" src="images/tiles-color.png"/> <img class="thumbnail" src="images/tiles-gray.png"/>
-                     <aside class="notes">Go down</aside>
                 </section>
                 <section>
-                    <h2>Visualization appearance</h2>
                     <p>Cluster markers for faster analysis & cleaner display</p>
                     <p><a href="https://github.com/Leaflet/Leaflet.markercluster" class="link">https://github.com/Leaflet/Leaflet.markercluster</a>
                     </p>
                     <img src="images/marker-clusters.png"/>
-                    <aside class="notes">Go down</aside>
                 </section>
                 <section>
-                    <h2>Visualization appearance</h2>
                     <p>Custom heatmap colors</p>
                     <p><a href="https://github.com/Leaflet/Leaflet.heat" class="link">https://github.com/Leaflet/Leaflet.heat</a>
                     </p>
                     <img class="thumbnail" src="images/heatmap-default.png"/> <img class="thumbnail" src="images/heatmap-custom.png"/>
-                    <aside class="notes">Go down</aside>
                 </section>
                <section>
                 <h2>User interaction</h2>
@@ -172,7 +171,6 @@
                         </td>
                     </tr>
                 </table>
-                <aside class="notes">Go down</aside>
             </section>
 
                 <section>
@@ -182,35 +180,15 @@
                         <li>Fonts</li>
                         <li>Responsiveness</li>
                     </ul>
-                    <aside class="notes">Go over</aside>
                 </section>
                 
-            </section>
-
-            <section>
-                <section>
-                    <h2>Lessons Learned</h2>
-                    <aside class="notes">Go down</aside>
-                </section>
-                <section>
-                    <p>Keep it simple</p>
-                    <aside class="notes">Go down</aside>
-                </section>
-                <section>
-                    <p>Design matters</p>
-                    <aside class="notes">Go down</aside>
-                </section>
-                <section>
-                    <p>Don't judge a book by a cover, but do judge an <br> app by its name.</p>
-                    <img style="width: 70%;" src="images/hackernews.png"/>
-                    <aside class="notes">Go over</aside>
-                </section>
             </section>
 
 
             <section>
                 <h2>Ongoing work</h2>
                 <p>Pull requests! Fork! Learn!</p>
+                <small><a href="https://github.com/meredithmmyers/ratmap">github.com/meredithmmyers/ratmap</a></small>
             </section>
 
             <section>
